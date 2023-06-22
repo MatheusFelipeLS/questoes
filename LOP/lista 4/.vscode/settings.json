@@ -1,0 +1,4 @@
+{
+    "cpp.creator.headerFileContentPreset": "#pragma once\n\nclass {{*CLASSNAME*}} {\n    public:\n        {{*CLASSNAME*}}();\n        ~{{*CLASSNAME*}}();\n    \n    private:\n    protected:\n};",
+    "cpp.creator.sourceFileContentPreset": "#include \"{{*HEADERFILENAME*}}\"\n\n{{*CLASSNAME*}}::{{*CLASSNAME*}}() {\n    //ctor\n}\n\n{{*CLASSNAME*}}::~{{*CLASSNAME*}}() {\n    //dtor\n}"
+}
